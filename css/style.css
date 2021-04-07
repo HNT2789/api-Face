@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+video {
+  margin: auto;
+  border-radius: 25px;
+  border: 30px solid rgba(0, 0, 0, 0.5);
+}
+canvas {
+  position: absolute;
+}
